@@ -1,0 +1,4 @@
+import pywhatkit as pwt
+f=open("D:\\filehand.txt","r")
+st=f.read()
+pwt.text_to_handwriting(st,"D:\\hand.png",[10,10,10])
